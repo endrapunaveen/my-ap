@@ -39,6 +39,7 @@
     </platform>
 
     <!-- ios -->
+<!--
     <platform name="ios">
       <asset src="www/opentok.js" target="opentok.js" />
 
@@ -64,7 +65,7 @@
       <framework src="libxml2.dylib" />
 
       <!-- Adopts project's config.xml to include the OpenTokPlugin and domain whitelists -->
-      <config-file target="config.xml" parent="/*/plugins">
+<!--      <config-file target="config.xml" parent="/*/plugins">
           <feature name="OpenTokPlugin">
               <param name="ios-package" value="OpenTokPlugin"/>
           </feature>
@@ -73,4 +74,5 @@
         <access origin="*" />
       </config-file>
     </platform>
+-->    
 </plugin>
